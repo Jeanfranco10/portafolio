@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portafolio de Jean Franco - Full Stack Developer | Lima, Perú">
+    <meta name="keywords" content="Full Stack Developer, React, Java, Node.js, Spring Boot, Peru">
+    <meta name="author" content="Jean Franco">
+    <title>Jean Franco | Full Stack Developer</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="nav-logo">JF</a>
+            <ul class="nav-menu">
+                <li><a href="#about" class="nav-link">Sobre Mí</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Proyectos</a></li>
+                <li><a href="#contact" class="nav-link">Contacto</a></li>
+            </ul>
+            <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-container">
+            <div class="hero-image">
+                <img src="img/profile-placeholder.jpg" alt="Jean Franco - Full Stack Developer" class="profile-img">
+            </div>
+            <div class="hero-content">
+                <p class="hero-greeting">Hola, soy</p>
+                <h1 class="hero-name">Jean Franco</h1>
+                <h2 class="hero-title">Full Stack Developer</h2>
+                <p class="hero-location">📍 Lima, Perú 🇵🇪</p>
+                <div class="hero-links">
+                    <a href="https://github.com/Jeanfranco10" target="_blank" class="hero-btn github-btn" aria-label="GitHub">
+                        <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
+                            <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                        </svg>
+                        GitHub
+                    </a>
+                    <a href="https://www.linkedin.com/in/jean-franco-parado-yarasca-76523a238/" target="_blank" class="hero-btn linkedin-btn" aria-label="LinkedIn">
+                        <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
+                            <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                        </svg>
+                        LinkedIn
+                    </a>
+                    <a href="mailto:tu-email@example.com" class="hero-btn email-btn" aria-label="Email">
+                        <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
+                            <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+                        </svg>
+                        Email
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="section-container">
+            <h2 class="section-title">Sobre Mí</h2>
+            <div class="about-content">
+                <p class="about-text">
+                    Desarrollador Full Stack apasionado por crear aplicaciones web completas y escalables. 
+                    Con experiencia en desarrollo frontend y backend, bases de datos, y deployment en la nube. 
+                    Me encanta aprender nuevas tecnologías y enfrentar desafíos que me permitan crecer profesionalmente.
+                </p>
+                <div class="about-stats">
+                    <div class="stat-item">
+                        <span class="stat-number">18+</span>
+                        <span class="stat-label">Repositorios</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">5+</span>
+                        <span class="stat-label">Tecnologías</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">Full Stack</span>
+                        <span class="stat-label">Enfoque</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">🇵🇪</span>
+                        <span class="stat-label">Lima, Perú</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+        <div class="section-container">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills-grid">
+                <!-- Frontend -->
+                <div class="skill-category">
+                    <h3 class="skill-category-title">
+                        <span class="skill-icon">🎨</span> Frontend
+                    </h3>
+                    <ul class="skill-list">
+                        <li><span class="skill-badge">React</span></li>
+                        <li><span class="skill-badge">Angular</span></li>
+                        <li><span class="skill-badge">TypeScript</span></li>
+                        <li><span class="skill-badge">HTML5</span></li>
+                        <li><span class="skill-badge">CSS3</span></li>
+                        <li><span class="skill-badge">Tailwind</span></li>
+                        <li><span class="skill-badge">Bootstrap</span></li>
+                        <li><span class="skill-badge">Blazor</span></li>
+                    </ul>
+                </div>
+                <!-- Backend -->
+                <div class="skill-category">
+                    <h3 class="skill-category-title">
+                        <span class="skill-icon">⚙️</span> Backend
+                    </h3>
+                    <ul class="skill-list">
+                        <li><span class="skill-badge">Java</span></li>
+                        <li><span class="skill-badge">Spring Boot</span></li>
+                        <li><span class="skill-badge">Node.js</span></li>
+                        <li><span class="skill-badge">Express.js</span></li>
+                        <li><span class="skill-badge">C#</span></li>
+                        <li><span class="skill-badge">ASP.NET Core</span></li>
+                        <li><span class="skill-badge">Python</span></li>
+                        <li><span class="skill-badge">REST APIs</span></li>
+                    </ul>
+                </div>
+                <!-- Tools & DevOps -->
+                <div class="skill-category">
+                    <h3 class="skill-category-title">
+                        <span class="skill-icon">🛠️</span> Tools & DevOps
+                    </h3>
+                    <ul class="skill-list">
+                        <li><span class="skill-badge">Docker</span></li>
+                        <li><span class="skill-badge">Git</span></li>
+                        <li><span class="skill-badge">MySQL</span></li>
+                        <li><span class="skill-badge">Supabase</span></li>
+                        <li><span class="skill-badge">SQL Server</span></li>
+                        <li><span class="skill-badge">Azure</span></li>
+                        <li><span class="skill-badge">Vercel</span></li>
+                        <li><span class="skill-badge">Render</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <div class="section-container">
+            <h2 class="section-title">Proyectos Destacados</h2>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <span class="project-icon">🛒</span>
+                        <div class="project-links">
+                            <a href="#" target="_blank" class="project-link" aria-label="Demo">
+                                <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor">
+                                    <path d="M14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"/>
+                                    <path d="M5 5c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2v-7h-2v7H5V7h7V5H5z"/>
+                                </svg>
+                            </a>
+                            <a href="https://github.com/Jeanfranco10/mini-ecommerce" target="_blank" class="project-link" aria-label="GitHub">
+                                <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor">
+                                    <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <h3 class="project-title">mini-ecommerce</h3>
+                    <p class="project-description">CRUD completo de e-commerce con Node.js, Express y MySQL.</p>
+                    <div class="project-tags">
+                        <span class="tag">Node.js</span>
+                        <span class="tag">Express</span>
+                        <span class="tag">MySQL</span>
+                    </div>
+                    <div class="project-buttons">
+                        <a href="#" target="_blank" class="btn btn-demo">🌐 Demo</a>
+                        <a href="https://github.com/Jeanfranco10/mini-ecommerce" target="_blank" class="btn btn-github">📂 Código</a>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <span class="project-icon">🏪</span>
+                        <div class="project-links">
+                            <a href="#" target="_blank" class="project-link" aria-label="Demo">
+                                <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor">
+                                    <path d="M14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"/>
+                                    <path d="M5 5c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2v-7h-2v7H5V7h7V5H5z"/>
+                                </svg>
+                            </a>
+                            <a href="https://github.com/Jeanfranco10/tiendaApp" target="_blank" class="project-link" aria-label="GitHub">
+                                <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor">
+                                    <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <h3 class="project-title">tiendaApp</h3>
+                    <p class="project-description">Sistema de gestión de tienda con Node.js, Express y MySQL.</p>
+                    <div class="project-tags">
+                        <span class="tag">Node.js</span>
+                        <span class="tag">Express</span>
+                        <span class="tag">MySQL</span>
+                    </div>
+                    <div class="project-buttons">
+                        <a href="#" target="_blank" class="btn btn-demo">🌐 Demo</a>
+                        <a href="https://github.com/Jeanfranco10/tiendaApp" target="_blank" class="btn btn-github">📂 Código</a>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <span class="project-icon">🎮</span>
+                        <div class="project-links">
+                            <a href="#" target="_blank" class="project-link" aria-label="Demo">
+                                <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor">
+                                    <path d="M14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"/>
+                                    <path d="M5 5c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2v-7h-2v7H5V7h7V5H5z"/>
+                                </svg>
+                            </a>
+                            <a href="https://github.com/Jeanfranco10/UrbanixPanel" target="_blank" class="project-link" aria-label="GitHub">
+                                <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor">
+                                    <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <h3 class="project-title">UrbanixPanel</h3>
+                    <p class="project-description">Panel de administración moderno con React y backend en Java.</p>
+                    <div class="project-tags">
+                        <span class="tag">React</span>
+                        <span class="tag">Java</span>
+                        <span class="tag">Admin Panel</span>
+                    </div>
+                    <div class="project-buttons">
+                        <a href="#" target="_blank" class="btn btn-demo">🌐 Demo</a>
+                        <a href="https://github.com/Jeanfranco10/UrbanixPanel" target="_blank" class="btn btn-github">📂 Código</a>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <span class="project-icon">🐉</span>
+                        <div class="project-links">
+                            <a href="#" target="_blank" class="project-link" aria-label="Demo">
+                                <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor">
+                                    <path d="M14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"/>
+                                    <path d="M5 5c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2v-7h-2v7H5V7h7V5H5z"/>
+                                </svg>
+                            </a>
+                            <a href="https://github.com/Jeanfranco10/Api_DragonBall_Java" target="_blank" class="project-link" aria-label="GitHub">
+                                <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor">
+                                    <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <h3 class="project-title">Api_DragonBall_Java</h3>
+                    <p class="project-description">API REST de Dragon Ball desarrollada con Java y Spring Boot.</p>
+                    <div class="project-tags">
+                        <span class="tag">Java</span>
+                        <span class="tag">Spring Boot</span>
+                        <span class="tag">API REST</span>
+                    </div>
+                    <div class="project-buttons">
+                        <a href="#" target="_blank" class="btn btn-demo">🌐 Demo</a>
+                        <a href="https://github.com/Jeanfranco10/Api_DragonBall_Java" target="_blank" class="btn btn-github">📂 Código</a>
+                    </div>
+                </div>
+
+                <!-- Project 5 -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <span class="project-icon">📱</span>
+                        <div class="project-links">
+                            <a href="#" target="_blank" class="project-link" aria-label="Demo">
+                                <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor">
+                                    <path d="M14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"/>
+                                    <path d="M5 5c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2v-7h-2v7H5V7h7V5H5z"/>
+                                </svg>
+                            </a>
+                            <a href="https://github.com/Jeanfranco10/Crud-Empleados-React-Express" target="_blank" class="project-link" aria-label="GitHub">
+                                <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor">
+                                    <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <h3 class="project-title">Crud-Empleados-React-Express</h3>
+                    <p class="project-description">CRUD de empleados con frontend React y backend Express.</p>
+                    <div class="project-tags">
+                        <span class="tag">React</span>
+                        <span class="tag">Express</span>
+                        <span class="tag">CRUD</span>
+                    </div>
+                    <div class="project-buttons">
+                        <a href="#" target="_blank" class="btn btn-demo">🌐 Demo</a>
+                        <a href="https://github.com/Jeanfranco10/Crud-Empleados-React-Express" target="_blank" class="btn btn-github">📂 Código</a>
+                    </div>
+                </div>
+
+                <!-- Project 6 -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <span class="project-icon">⚽</span>
+                        <div class="project-links">
+                            <a href="#" target="_blank" class="project-link" aria-label="Demo">
+                                <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor">
+                                    <path d="M14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"/>
+                                    <path d="M5 5c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2v-7h-2v7H5V7h7V5H5z"/>
+                                </svg>
+                            </a>
+                            <a href="https://github.com/Jeanfranco10/proyecto-final" target="_blank" class="project-link" aria-label="GitHub">
+                                <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor">
+                                    <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <h3 class="project-title">proyecto-final</h3>
+                    <p class="project-description">Sitio web biografía de joven futbolista con HTML5 y CSS3.</p>
+                    <div class="project-tags">
+                        <span class="tag">HTML5</span>
+                        <span class="tag">CSS3</span>
+                        <span class="tag">Web Design</span>
+                    </div>
+                    <div class="project-buttons">
+                        <a href="#" target="_blank" class="btn btn-demo">🌐 Demo</a>
+                        <a href="https://github.com/Jeanfranco10/proyecto-final" target="_blank" class="btn btn-github">📂 Código</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Ver más repositorios -->
+            <div class="projects-more">
+                <a href="https://github.com/Jeanfranco10?tab=repositories" target="_blank" class="btn btn-more">
+                    📄 Ver Todos los Repositorios →
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="section-container">
+            <h2 class="section-title">Contacto</h2>
+            <div class="contact-content">
+                <p class="contact-text">
+                    ¿Tienes un proyecto en mente o quieres conectar? ¡Hablemos!
+                </p>
+                <div class="contact-links">
+                    <a href="mailto:tu-email@example.com" class="contact-link">
+                        <span class="contact-icon">📧</span>
+                        <span class="contact-info">
+                            <span class="contact-label">Email</span>
+                            <span class="contact-value">Enviar mensaje</span>
+                        </span>
+                    </a>
+                    <a href="https://www.linkedin.com/in/jean-franco-parado-yarasca-76523a238/" target="_blank" class="contact-link">
+                        <span class="contact-icon">💼</span>
+                        <span class="contact-info">
+                            <span class="contact-label">LinkedIn</span>
+                            <span class="contact-value">Conectar</span>
+                        </span>
+                    </a>
+                    <a href="https://github.com/Jeanfranco10" target="_blank" class="contact-link">
+                        <span class="contact-icon">🐙</span>
+                        <span class="contact-info">
+                            <span class="contact-label">GitHub</span>
+                            <span class="contact-value">Ver perfil</span>
+                        </span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <p class="footer-text">
+                © 2026 Jean Franco | Hecho con ❤️ en Lima, Perú
+            </p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
